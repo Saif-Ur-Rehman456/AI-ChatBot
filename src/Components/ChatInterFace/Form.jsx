@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "./Form.css";
 
 function Form({ messages, isLoader }) {
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  const apiKey = "your API key;
   let [prompt, setPrompt] = useState("");
   let [isLoading, setIsLoading] = useState(false);
 
