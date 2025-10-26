@@ -23,17 +23,6 @@ const Header = ({ newChat, toggleHomeChat }) => {
         <h2 className="logo-text">SmartTalk</h2>
       </div>
       <div className="header-right">
-        {/* <div className="nav-links">
-          <a className="nav-link" href="#">
-            About
-          </a>
-          <a className="nav-link" href="#">
-            Contact
-          </a>
-        </div> */}
-        {/* <button className="chat-btn">
-          <span className="btn-text">Start Chat</span>
-        </button> */}
         <Button newChat={newChat} toggleHomeChat={toggleHomeChat} />
       </div>
     </header>

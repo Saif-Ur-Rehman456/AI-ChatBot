@@ -113,11 +113,7 @@ function Form({ messages, isLoader }) {
           </label>
         </div>
       </form>
-      {/* {answer && (
-        <div className="server-answer">
-          <strong>API ka jawab:</strong> {answer}
-        </div>
-      )} */}
+      
     </>
   );
 }

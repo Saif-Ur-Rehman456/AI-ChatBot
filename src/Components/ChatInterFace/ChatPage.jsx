@@ -14,18 +14,16 @@ console.log(uuidv4());
 const ChatInterface = () => {
   let [ansQuest, setAnsQuest] = useState([
     {
-      Userquestion:
-        "  I'm thinking of a trip to Paris. I'd like to see the Eiffel Tower,visit some museums, and maybe take a cooking class.",
+      Userquestion: "Hey there! How are you today?",
       AI_Answer:
-        //  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia, dolore consequatur earum aliquid explicabo totam optio saepe, accusantium laborum error quam sequi quia dolorem, quaerat provident. Repellat saepe a aperiam est beatae provident error corporis soluta tempora vel recusandae possimus similique nemo hic amet quos tenetur earum, tempore fugit quasi enim? Exercitationem ad neque autem molestiae deleniti repellendus, recusandae debitis provident, sed error odio dolor sunt tempora optio dolorem? Obcaecati aperiam repudiandae voluptatem deserunt at voluptatibus laboriosam iste ea pariatur laudantium mollitia enim consequuntur aut, culpa ad dolorem qui ab fuga placeat delectus tenetur porro asperiores. Consequatur, quae harum!"
-        " Hi there! Ready to plan your next adventure? Tell me where you'd like to go and what you're interested in doing.",
-        id: uuidv4(),
+        "Hi! I'm your friendly chatbot. Ask me anything — I can help you with coding, general info, or just a quick chat!",
+      id: uuidv4(),
     },
   ]);
 
   let [loader, setIsLoader] = useState(false);
 
-  // Scroll ke liye naya code
+  // For Scroll 
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -50,11 +48,10 @@ const ChatInterface = () => {
     console.log("ya li jiya nae chat khol gai!");
     setAnsQuest([
       {
-        Userquestion:
-          "  I'm thinking of a trip to Paris. I'd like to see the Eiffel Tower,visit some museums, and maybe take a cooking class.",
+        Userquestion: "Hey there! How are you today?",
         AI_Answer:
-          " Hi there! Ready to plan your next adventure? Tell me where you'd like to go and what you're interested in doing.",
-          id: uuidv4(),
+          "Hi! I'm your friendly chatbot. Ask me anything — I can help you with coding, general info, or just a quick chat!",
+        id: uuidv4(),
       },
     ]);
   };
@@ -72,10 +69,7 @@ const ChatInterface = () => {
             questions, get instant answers, and enjoy personalized assistance
             for anything you need — from learning to planning to daily help."
           </p>
-          {/* <div className="chatMesages">
-            <AiMsg userMsg={ansQuest} />
-            <UserMsg aiMsg={ansQuest} />
-          </div> */}
+        
           {ansQuest.map((item) => {
             return (
               <div key={item.id}>
@@ -86,7 +80,6 @@ const ChatInterface = () => {
           })}
           {loader && <LoaderAnimation />}
 
-          {/* <LoaderAnimation/> */}
 
           <div ref={messagesEndRef} />
         </div>

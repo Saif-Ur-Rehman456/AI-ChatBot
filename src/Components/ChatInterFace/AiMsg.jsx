@@ -13,7 +13,7 @@ function AiMsg({ aiMsg }) {
         }}
       ></div>
       <div className="message-content">
-        <p className="sender-name">TripAI</p>
+        <p className="sender-name">ChatBotAI</p>
         <p className="message-bubble ai-bubble">{aiMsg.AI_Answer}</p>
       </div>
     </div>

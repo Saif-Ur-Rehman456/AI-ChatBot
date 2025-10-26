@@ -1,7 +1,6 @@
 .loader {
   display: flex;
   gap: 8px;
-  /* border: 2px solid pink; */
   padding: 0 0 0 50px;
 }
 .loader .dot {

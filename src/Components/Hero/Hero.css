@@ -4,7 +4,6 @@ components/Hero.css
   display: flex;
   flex: 1;
   justify-content: center;
-  /* overflow: hidden; */
   padding: 20px 160px;
   min-height: calc(100vh - 83px);
 

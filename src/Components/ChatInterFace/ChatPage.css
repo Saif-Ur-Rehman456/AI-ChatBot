@@ -44,11 +44,6 @@
   font-family: Inter, "Noto Sans", sans-serif;
  
 }
-
-
-
-
-
 @media (max-width: 1024px) {
   .chat-interface {
     padding: 20px 40px;

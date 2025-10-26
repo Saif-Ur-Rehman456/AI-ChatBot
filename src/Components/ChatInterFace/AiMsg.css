@@ -2,9 +2,7 @@
   display: flex;
   align-items: flex-end;
   gap: 12px;
-  /* padding: 16px; */
   margin-bottom: 80px;
-  /* border: 2px solid pink; */
 }
 .ai-message {
   justify-content: flex-start;
@@ -25,16 +23,11 @@
   gap: 4px;
   align-items: flex-start;
   flex: 1;
-  /* max-width: 900px; */
-  /* border: 2px solid pink; */
-  /* max-width: 500px; */
+  
 
   
 }
-/* .aiMessage-content{
-  width: 700px;
 
-} */
 .sender-name {
   color: #93c5fd;
   font-size: 13px;
@@ -48,7 +41,6 @@
   font-weight: 400;
   line-height: 1.5;
   display: flex;
-  /* max-width: 500px; */
   border-radius: 12px;
   padding: 12px 16px;
   margin: 0;
@@ -59,6 +51,5 @@
   background-color: #374151;
   color: #e5e7eb;
   max-width: 600px;
-  /* max-width: 6000px; */
 
 }
