@@ -1,0 +1,70 @@
+/* components/ChatInterface.css */
+.chat-interface {
+  padding: 0 160px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+  /* position: relative; */
+}
+
+.layout-content-container {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  /* align-items: center; */
+  flex: 1;
+  gap: 5px;
+  margin-bottom: 90px;
+ 
+}
+
+.welcome-title {
+  color: #e5e7eb;
+  letter-spacing: -0.025em;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+ 
+  text-align: center;
+ 
+  margin: 0;
+  font-family: Inter, "Noto Sans", sans-serif;
+}
+
+.welcome-description {
+  color: #d1d5db;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+ 
+  text-align: center;
+  margin: 0;
+  font-family: Inter, "Noto Sans", sans-serif;
+ 
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .chat-interface {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chat-interface {
+    padding: 20px;
+  }
+  
+  .message-container {
+    padding: 12px;
+  }
+  
+  .input-container {
+    padding: 12px;
+  }
+}

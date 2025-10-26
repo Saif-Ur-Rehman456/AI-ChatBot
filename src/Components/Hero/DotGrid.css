@@ -1,0 +1,16 @@
+/* DotGrid.css */
+.dot-grid {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.dot-grid__wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.dot-grid__canvas {
+  display: block;
+}

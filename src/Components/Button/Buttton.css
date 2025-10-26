@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  min-width: 84px;
+  max-width: 480px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 16px;
+  background-color: #1293d3;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+  border: none;
+  font-family: Inter, "Noto Sans", sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover{
+  background-color: #0e77a8;
+
+
+}

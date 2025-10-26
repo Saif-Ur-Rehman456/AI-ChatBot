@@ -1,0 +1,99 @@
+/* components/Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-bottom: 1px solid #233c48;
+  padding: 12px 40px;
+  height: 61px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.logo-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.logo-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin: 0;
+  font-family: Inter, "Noto Sans", sans-serif;
+}
+
+.header-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  font-family: Inter, "Noto Sans", sans-serif;
+}
+
+/* .chat-btn {
+  display: flex;
+  min-width: 84px;
+  max-width: 480px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 16px;
+  background-color: #1293d3;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+  border: none;
+  font-family: Inter, "Noto Sans", sans-serif;
+} */
+
+.btn-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 12px 20px;
+  }
+  
+  .header-right {
+    gap: 16px;
+  }
+  
+  .nav-links {
+    gap: 16px;
+  }
+}
